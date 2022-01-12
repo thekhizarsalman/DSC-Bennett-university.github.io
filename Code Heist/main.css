@@ -4,6 +4,19 @@
  * Copyright 2014-2021 Froala Labs
  */
 
+ ul.prize {
+  list-style: none;
+}
+
+ul.prize li::before {
+  content: "\2022"; 
+  color: #db545a; 
+  font-weight: bold; 
+  display: inline-block; 
+  width: 2em; 
+  margin-left: -1em; 
+}
+
 .fr-clearfix::after {
   clear: both;
   display: block;
